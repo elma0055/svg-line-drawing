@@ -39,3 +39,45 @@ h1 {
   }
 
 }
+
+#rainbow-red {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1243.044px;
+  stroke-dashoffset: 1243.044px;
+}
+
+#rainbow-orange {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1366.26px;
+  stroke-dashoffset: 1366.26px;
+}
+
+#rainbow-yellow {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1483.352px;
+  stroke-dashoffset: 1483.352px;
+}
+
+#rainbow-green {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1596.043px;
+  stroke-dashoffset: 1596.043px;
+}
+
+#rainbow-blue {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1705.479px;
+  stroke-dashoffset: 1705.479px;
+}
+
+#rainbow-indigo {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1812.502px;
+  stroke-dashoffset: 1812.502px;
+}
+
+#rainbow-violet {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1917.692px;
+  stroke-dashoffset: 1917.692px;
+}
