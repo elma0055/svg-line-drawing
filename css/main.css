@@ -1,3 +1,41 @@
-html {
-  font-family: 'Unica One', cursive;
+h1 {
+  color: #fff;
+  font-family: "Unica One", sans-serif;
+  font-weight: lighter;
+  max-width: 175px;
+  top: 25%;
+  left: 5%;
+  z-index: 5;
+  animation: fading 3s linear;
+}
+
+#narwhal-eye {
+  opacity: 1;
+  animation: fading 3s linear forwards;
+}
+
+@keyframes fading {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
+
+#narwhal-body {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1981.415px;
+  stroke-dashoffset: 1981.415px;
+}
+
+@keyframes offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
 }
